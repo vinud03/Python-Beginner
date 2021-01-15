@@ -1,4 +1,14 @@
+
+import RAnd_num
+
+
+
 def guess():
+'''
+This function is created to generate one random number.
+Here we take input from user and compare it with random number
+
+'''
     num = RAnd_num.randint(1, 15)
     print("Guess the number from 1 to 15\n Total number of attempts 5")
     print('Enter the Number you guess')
@@ -18,7 +28,6 @@ def guess():
         i = i + 1
 
 
-import RAnd_num
 
 
 while(True):
