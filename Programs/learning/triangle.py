@@ -1,0 +1,22 @@
+def triangle(a,b,c):
+	if a==b and b==c:
+		print('Given triangle is Equilateral triangle')
+	elif a==b or a==c or b==c:
+		print('Given triangle is Isosceles triangle')
+	else:
+		print('Given triangle is Scalene triangle')
+
+
+
+
+
+
+
+print('Enter first numbers:')
+s1=int(input())
+print('Enter second numbers:')
+s2=int(input())
+print('Enter third numbers:')
+s3=float(input())
+
+triangle(s1,s2,s3)
